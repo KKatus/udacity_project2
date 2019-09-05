@@ -50,8 +50,8 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="button_plus3"
-                android:text="+3 Points" />
+                android:onClick="button_try"
+                android:text="Try" />
 
             <Button
                 android:layout_width="match_parent"
@@ -61,8 +61,8 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="button_plus2"
-                android:text="+2 Points" />
+                android:onClick="button_penalty"
+                android:text="Penalty Kick" />
 
             <Button
                 android:layout_width="match_parent"
@@ -72,8 +72,8 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="button_plus1"
-                android:text="Free Throw" />
+                android:onClick="button_dropkick"
+                android:text="Drop Kick" />
         </LinearLayout>
 
         <TextView
@@ -120,8 +120,8 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="buttonb_plus3"
-                android:text="+3 Points" />
+                android:onClick="buttonb_try"
+                android:text="Try" />
 
             <Button
                 android:layout_width="match_parent"
@@ -131,8 +131,8 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:onClick="buttonb_plus2"
-                android:text="+2 Points" />
+                android:onClick="buttonb_penalty"
+                android:text="Penalty Kick" />
 
             <Button
                 android:layout_width="match_parent"
@@ -141,8 +141,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
-                android:onClick="buttonb_plus1"
-                android:text="Free Throw" />
+                android:onClick="buttonb_dropkick"
+                android:text="Drop Kick" />
 
 
         </LinearLayout>

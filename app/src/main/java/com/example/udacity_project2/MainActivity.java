@@ -20,33 +20,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void button_plus3(View view) {
+    public void button_try(View view) {
+        TeamA = TeamA + 5;
+        displayForTeamA(TeamA);
+    }
+
+    public void button_penalty(View view) {
         TeamA = TeamA + 3;
         displayForTeamA(TeamA);
     }
 
-    public void button_plus2(View view) {
-        TeamA = TeamA + 2;
+    public void button_dropkick(View view) {
+        TeamA = TeamA + 3;
         displayForTeamA(TeamA);
     }
 
-    public void button_plus1(View view) {
-        TeamA++;
-        displayForTeamA(TeamA);
+    public void buttonb_try(View view) {
+        TeamB = TeamB + 5;
+        displayForTeamB(TeamB);
     }
 
-    public void buttonb_plus3(View view) {
+    public void buttonb_penalty(View view) {
         TeamB = TeamB + 3;
         displayForTeamB(TeamB);
     }
 
-    public void buttonb_plus2(View view) {
-        TeamB = TeamB + 2;
-        displayForTeamB(TeamB);
-    }
-
-    public void buttonb_plus1(View view) {
-        TeamB++;
+    public void buttonb_dropkick(View view) {
+        TeamB = TeamB + 3;
         displayForTeamB(TeamB);
     }
     public void reset(View view){
