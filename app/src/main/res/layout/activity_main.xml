@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearlayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -29,7 +30,7 @@
                 android:padding="4dp"
                 android:text="Team A"
                 android:textColor="@color/Black"
-                android:textSize="16sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -41,7 +42,7 @@
                 android:padding="4dp"
                 android:text="0"
                 android:textColor="@color/Black"
-                android:textSize="56sp" />
+                android:textSize="60sp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -113,7 +114,7 @@
                 android:padding="4dp"
                 android:text="Team B"
                 android:textColor="@color/Black"
-                android:textSize="16sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -126,7 +127,7 @@
                 android:padding="4dp"
                 android:text="0"
                 android:textColor="@color/Black"
-                android:textSize="56sp" />
+                android:textSize="60sp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -180,6 +181,17 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:padding="24dp"
+        android:text="Conversion can only be added if a succesfull 'Try' got added first!"
+        android:textColor="@color/Black"
+        android:textSize="18sp" />
 
     <Button
         android:layout_width="wrap_content"
