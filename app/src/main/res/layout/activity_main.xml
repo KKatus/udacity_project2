@@ -50,6 +50,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Orange"
                 android:onClick="button_try"
                 android:text="Try" />
 
@@ -61,6 +62,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Green"
                 android:onClick="button_conversion"
                 android:text="Conversion" />
 
@@ -72,6 +74,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Orange"
                 android:onClick="button_penalty"
                 android:text="Penalty Kick" />
 
@@ -83,6 +86,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Orange"
                 android:onClick="button_dropkick"
                 android:text="Drop Kick" />
         </LinearLayout>
@@ -131,6 +135,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Orange"
                 android:onClick="buttonb_try"
                 android:text="Try" />
 
@@ -142,6 +147,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Green"
                 android:onClick="buttonb_conversion"
                 android:text="Conversion" />
 
@@ -153,6 +159,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
+                android:background="@color/Orange"
                 android:onClick="buttonb_penalty"
                 android:text="Penalty Kick" />
 
@@ -163,6 +170,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
+                android:background="@color/Orange"
                 android:onClick="buttonb_dropkick"
                 android:text="Drop Kick" />
 
@@ -178,6 +186,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginBottom="32dp"
+        android:background="@color/Orange"
         android:onClick="reset"
         android:text="RESET" />
 
