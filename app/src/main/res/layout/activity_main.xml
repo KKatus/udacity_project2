@@ -28,8 +28,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:padding="4dp"
                 android:text="Team A"
-                android:textColor="@color/Teamcolor"
-                android:textSize="14sp" />
+                android:textColor="@color/Black"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -51,7 +51,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="button_try"
                 android:text="Try" />
 
@@ -63,7 +63,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Green"
+                android:background="@color/DarkMagenta"
                 android:onClick="button_conversion"
                 android:text="Conversion" />
 
@@ -75,7 +75,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="button_penalty"
                 android:text="Penalty Kick" />
 
@@ -87,7 +87,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="button_dropkick"
                 android:text="Drop Kick" />
         </LinearLayout>
@@ -96,7 +96,7 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@color/DarkGray" />
+            android:background="@color/Black" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -112,8 +112,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:padding="4dp"
                 android:text="Team B"
-                android:textColor="@color/Teamcolor"
-                android:textSize="14sp" />
+                android:textColor="@color/Black"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -136,7 +136,7 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="buttonb_try"
                 android:text="Try" />
 
@@ -148,7 +148,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Green"
+                android:background="@color/DarkMagenta"
                 android:onClick="buttonb_conversion"
                 android:text="Conversion" />
 
@@ -160,7 +160,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="4dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="buttonb_penalty"
                 android:text="Penalty Kick" />
 
@@ -171,7 +171,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginRight="24dp"
-                android:background="@color/Orange"
+                android:background="@color/MediumSlateBlue"
                 android:onClick="buttonb_dropkick"
                 android:text="Drop Kick" />
 
