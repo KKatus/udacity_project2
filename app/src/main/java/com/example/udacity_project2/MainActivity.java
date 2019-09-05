@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(TeamA);
     }
 
+    public void button_conversion(View view) {
+        TeamA = TeamA + 3;
+        displayForTeamA(TeamA);
+    }
+
+
     public void button_penalty(View view) {
         TeamA = TeamA + 3;
         displayForTeamA(TeamA);
@@ -40,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(TeamB);
     }
 
+
+    public void buttonb_conversion(View view) {
+        TeamB = TeamB + 3;
+        displayForTeamA(TeamA);
+    }
+
     public void buttonb_penalty(View view) {
         TeamB = TeamB + 3;
         displayForTeamB(TeamB);
@@ -49,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         TeamB = TeamB + 3;
         displayForTeamB(TeamB);
     }
-    public void reset(View view){
+
+    public void reset(View view) {
         TeamA = 0;
         TeamB = 0;
         displayForTeamA(TeamA);
